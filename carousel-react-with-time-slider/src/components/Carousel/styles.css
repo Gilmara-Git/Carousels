@@ -1,0 +1,12 @@
+.carousel {
+    margin: auto;
+    overflow: hidden;
+    max-width: 900px;
+
+}
+
+.carousel-inner {
+    white-space: nowrap;
+
+
+}
