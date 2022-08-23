@@ -1,0 +1,19 @@
+.carousel-control {
+    background-color: rgba(0,0,0,0.5); 
+    border: none;
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    top: calc(50% -25px);
+    color: rgb(236, 172, 193);
+    cursor: pointer;
+}
+
+.left {
+   left: 0;
+}
+
+.right {
+    right: 0;
+}
