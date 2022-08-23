@@ -1,14 +1,12 @@
-import './App.css';
-import imagesArray from "../src/Components/ImagesArray/imagesArray";
+import "./App.css";
+import { Carousel } from "../src/Components/Carousel";
 
 function App() {
   return (
-    <div>
-      {imagesArray.map(item =>
-          <img src={item.url}alt="landscape" />
-      )}
-    </div>
-  );
+  <div className="App">
+    <Carousel />
+
+    </div>);
 }
 
 export default App;
