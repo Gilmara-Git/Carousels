@@ -31,10 +31,12 @@ function next(){
 
 }
 
+const number = 3000
+
 function startSliderTimer(){
     slideInterval.current =  setInterval(()=>{
     setCurrSlide(currSlide => currSlide < slides.length - 1 ? currSlide + 1 : 0);
-  },3000);
+  },number);
 }
 
 function stopSliderTimer(){
@@ -59,7 +61,12 @@ function stopSliderTimer(){
         style={{ transform: `translateX(${-currSlide * 100}%)`}}
         >
         {slides.map((slide, index) => (
-          <CarouselItem key={index} slide={slide} />
+          <CarouselItem 
+              key={index} 
+              slide={slide}
+              stopSlide={stopSliderTimer}
+              startSlide={startSliderTimer}
+              />
           ))}
       </div>
      
