@@ -1,13 +1,13 @@
 .carousel {
-    margin: auto;
+    /* margin: auto; */
     overflow: hidden;
-    max-width: 900px;
-
+    max-width: 600px;
+    position: relative;
+   
 }
 
 .carousel-inner {
     white-space: nowrap;
-    transition: ease 1s;
-
-
+    transition: ease-in-out 0.8s;
+   
 } 

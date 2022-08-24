@@ -1,9 +1,14 @@
 import "./styles.css";
-export default function CarouselControls(){
+export default function CarouselControls({prev, next}){
+ 
     return (
-        <div>
-            <button className="carousel-control left">Left</button>
-            <button className="carousel-control right">Right</button>
+        <div className="buttonControls">
+            <button 
+                onClick={prev}               
+                className="carousel-control left">Prev</button>
+            <button 
+                onClick={next}
+                className="carousel-control right">Next</button>
         </div>
     );
 }
