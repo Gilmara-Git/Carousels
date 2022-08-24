@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from 'react';
 import CarouselItem from "../CarouselItem";
+import CarouselIndicators from "../CarouselIndicators";
 import CarouselControls from "../../components/CarouselControls";
 import "./styles.css";
 
@@ -46,6 +47,15 @@ function stopSliderTimer(){
   }
 }
 
+function switchDots(index){
+  console.log(index, 'sou o index')
+  console.log(currSlide, 'sou o currSlide')
+  setCurrSlide(index);
+  startSliderTimer();
+  console.log(currSlide, 'sou o currSlide AGIAN')
+  // stopSliderTimer()
+}
+
   useEffect(()=>{
     startSliderTimer();
 
@@ -69,7 +79,13 @@ function stopSliderTimer(){
               />
           ))}
       </div>
-     
+
+      <CarouselIndicators 
+        slides={slides} 
+        currentIndex={currSlide}
+        switchDots={switchDots}
+        />
+
     </div>
   );
 }
