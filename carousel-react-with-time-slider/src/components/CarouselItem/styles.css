@@ -1,0 +1,9 @@
+.carousel-item{
+    display: inline-block;
+    width: 100%;
+}
+
+#image{
+    width: 600px;
+    height: 390px;
+   }

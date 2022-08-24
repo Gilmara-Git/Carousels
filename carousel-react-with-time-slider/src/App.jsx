@@ -1,20 +1,11 @@
-import { useState } from "react";
 import slides from "./slides";
+import Carousel from "./components/Carousel";
+
 
 function App() {
   return (
-    <div className="container">
-      <div className="carousel">
-        <div className="carousel-inner">
-
-          {slides.map((slide, index) => (
-            <div className="carousel-item">
-              <img src={slide} alt="North Lights" />
-            </div>
-          ))}
-          
-        </div>
-      </div>
+    <div className="container">     
+     <Carousel slides={slides}/>
     </div>
   );
 }

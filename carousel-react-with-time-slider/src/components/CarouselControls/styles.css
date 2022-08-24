@@ -1,0 +1,25 @@
+.carousel-control {
+    background-color: rgba(0,0,0,0.5); 
+    border: none;
+    display: inline-block;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+  
+    color: rgb(236, 172, 193);
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 50;
+
+}
+
+.left{
+  top: 156px;
+  left: 0;
+}
+
+.right {
+    top: 156px;/* z-index: 50; */
+    right: 0;
+}
+    
