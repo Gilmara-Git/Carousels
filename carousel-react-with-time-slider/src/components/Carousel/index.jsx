@@ -73,6 +73,7 @@ function switchDots(index){
         className="carousel-inner"
         style={{ transform: `translateX(${-currSlide * 100}%)`}}
         >
+         
         {slides.map((slide, index) => (
           <CarouselItem 
               key={index} 
