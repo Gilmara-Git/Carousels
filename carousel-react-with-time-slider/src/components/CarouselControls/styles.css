@@ -3,8 +3,8 @@
     border: none;
     display: inline-block;
     position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
   
     color: rgb(236, 172, 193);
     cursor: pointer;
@@ -13,13 +13,14 @@
 
 }
 
+
 .left{
-  top: 156px;
+  top: 50%;
   left: 0;
 }
 
 .right {
-    top: 156px;/* z-index: 50; */
-    right: 0;
+  top: 50%;/* z-index: 50; */
+  right: 0;
 }
     

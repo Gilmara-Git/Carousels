@@ -1,3 +1,4 @@
+import {FiChevronLeft, FiChevronRight} from "react-icons/fi";
 import "./styles.css";
 
 export default function CarouselIndicators( {slides, currentIndex, switchDots} ){
