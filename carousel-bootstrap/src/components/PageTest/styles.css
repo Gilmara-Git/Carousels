@@ -1,0 +1,32 @@
+.pageContainer{
+    width: 1300px;
+    height: 700px;
+}
+
+.backgroundDiv {
+    background-image: url("https://picsum.photos/id/1080/367/267"); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1300px;
+    height: 700px;
+}
+
+#signUp {
+    color: white;
+    background-color: blue;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    width: 140px;
+    height: 70px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#signUp:hover{
+    filter: brightness(0.7);
+}
