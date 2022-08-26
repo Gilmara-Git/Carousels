@@ -12,7 +12,7 @@ Learning the different ways to build a carousel.
 <h2>Responsive</h2>
 
 The carousel-bootstrap is advantageous as it makes it responsive.
-<img align="center" src="https://ik.imagekit.io/cnbmdh4b9w/ezgif.com-gif-maker_SI7efWzm2.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1661475512209" alt="gif" />
+<h1 align="center"><img  src="https://ik.imagekit.io/cnbmdh4b9w/ezgif.com-gif-maker_SI7efWzm2.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1661475512209" alt="gif" /><h1>
 
 
 <h2>Technologies</h2>
