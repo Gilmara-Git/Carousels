@@ -1,5 +1,3 @@
-<h1 align="center">Carousels</h1>
-
 <h2>Learning Carousel</h2>
 
 Learning the different ways to build a carousel.
@@ -8,6 +6,7 @@ Learning the different ways to build a carousel.
 
 <h2>Responsive</h2>
 
+
 The carousel-bootstrap is advantageous as it is responsive.
 
 <h1 align="center"><img  src="https://ik.imagekit.io/cnbmdh4b9w/ezgif.com-gif-maker_SI7efWzm2.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1661475512209" alt="gif"/><h1>
@@ -15,3 +14,6 @@ The carousel-bootstrap is advantageous as it is responsive.
 <h2>Technologies</h2>
 <p>React</p>
 <p>React BootStrap</p>
+
+
+
