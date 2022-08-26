@@ -61,7 +61,7 @@ function Slider() {
       <img
           className="d-block w-100"
           src="./public/images/image4-1200x700.jpg"
-          alt="Third slide"
+          alt="Forth slide"
         />
         
         <Carousel.Caption>
